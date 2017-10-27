@@ -46,3 +46,9 @@ C:\Users\Estudiante\Desktop\FlowersAndBushes - copia\FlowersAndBushes\FlowersAnd
 C:\Users\Estudiante\Desktop\FlowersAndBushes - copia\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.csprojResolveAssemblyReference.cache
 C:\Users\Estudiante\Desktop\FlowersAndBushes - copia\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.dll
 C:\Users\Estudiante\Desktop\FlowersAndBushes - copia\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.pdb
+D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\bin\FlowersAndBushes.dll.config
+D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\bin\FlowersAndBushes.dll
+D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\bin\FlowersAndBushes.pdb
+D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.csprojResolveAssemblyReference.cache
+D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.dll
+D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.pdb
