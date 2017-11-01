@@ -1,282 +1,93 @@
-﻿
-
+﻿@model IEnumerable<FlowersAndBushes.Models.Producto>
 
 @{
     ViewBag.Title = "Index";
 }
-<h2>Nuestros Productos</h2>
 
-aspecto,
-tipo de hojas
-tipo de flores
-temporada de plantación
-temporada de floración
-familia a la que pertenece
-su origen
-precio por unidad
-fotografía y otros atributos.
+<h2>Index</h2>
 
-Abonos
-Tierras
-Adornos (pequeñas estatuillas, fuentes, etc).
-
-
-
-<div class="panel panel-primary">
-    <div class="panel-heading"> Registro de Productos</div>
-    <div class="panel-body">
-        <div id="alert_placeholder"></div>
-        <form id="Formulario" role="form" action="/Home/About">
-            <table class="table table-striped">
-                <tr>
-                    <td>Nombre</td>
-                    <td>
-                        <input type="text" class="form-control" id="nombreProducto" />
-
-                    </td>
-                    <td>Aspecto</td>
-                    <td>
-                        <input type="text" class="form-control" id="aspectoProducto" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Tipo de hoja</td>
-                    <td>
-                        <select class="form-control" id="tipoHoja">
-                            <option>Acicular</option>
-                            <option>Lanceolada</option>
-                            <option>Orbicular</option>
-                            <option>Romboide</option>
-                            <option>Orbicular</option>
-                            <option>Acumitada</option>
-                            <option>Flabelada</option>
-                            <option>Ovada</option>
-                            <option>En roseta</option>
-                            <option>Alternas</option>
-                            <option>Hastada</option>
-                            <option>Palmeada</option>
-                            <option>Espatulada</option>
-                            <option>Aristada</option>
-                            <option>Palma simple</option>
-                            <option>Sagitada</option>
-                            <option>Bipinnada</option>
-                            <option>Lineal</option>
-                            <option>Peltada</option>
-                            <option>Subulada</option>
-                            <option>Cordada</option>
-                            <option>Lobulada</option>
-                            <option>Amplexicaule</option>
-                            <option>Trifoliada</option>
-                            <option>Cuneada</option>
-                            <option>Imparipinnada</option>
-                            <option>Tripinnada</option>
-                            <option>Triangular</option>
-                            <option>Obovada</option>
-                            <option>Paripinnada</option>
-                            <option>Truncada</option>
-                            <option>Digitada</option>
-                            <option>Obtusa</option>
-                            <option>Pinnatisecta</option>
-                            <option>Eliípitica</option>
-                            <option>Opuestas</option>
-                            <option>Reniforme</option>
-                            <option>Verticilados</option>
-                            <option>Entera</option>
-
-                        </select>
-
-
-                    <td>Tipo de flores</td>
-                    <td><input type="text" class="form-control" id="tipoFlor" />
-                </tr>
-                <tr>
-                    
-                </tr>
-
-                <tr>
-                    <td>Temporada de plantacion</td>
-                    <td>
-                        <select class="form-control" id="temporadaPlantacion">
-                            <option>Invierno</option>
-                            <option>Otoño</option>
-                            <option>Verano</option>
-                            <option>Primavera</option>
-
-                        </select>
-                    </td>
-
-                    <td>Temporada de floracion</td>
-                    <td>
-                        <select class="form-control" id="temporadaFloracion">
-                            <option>Invierno</option>
-                            <option>Otoño</option>
-                            <option>Verano</option>
-                            <option>Primavera</option>
-
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Familia a la que pertenece</td>
-                    <td><input type="text" class="form-control" id="familiaPertenece" />
-                    <td>Origen</td>
-                    <td><input type="text" class="form-control" id="origen" /></td>
-
-                </tr>
-                <tr>
-                    <td>Precio por Unidad</td>
-                    <td>
-                        <input type="text" class="form-control" id="precioUnidad" />
-
-                    <td>Fotografia</td>
-                    <td><input type="text" class="form-control" id="Fotografia" />
-                </tr>
-                <tr>
-                    <td colspan="4" align="right">
-                        <input type="submit" value="Registrar" class="btn-primary" />
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </div>
-</div>
-
-
-
-<table>
-
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
     <tr>
-        <b>Plantas interiores:</b>
-        <td class="first">
-            <img src="Imagenes\duranta.jpg" align="left" width="300" height="300" border="0" alt="Duranta">
-        </td>
-
-        <td class="second">
-            Excepcional arbusto de muy rápida evolución, fuerte y con una condición perenne, es muy apreciado en jardinería por su floración.
-
-            Está agrupada dentro de la familia de las Verbenaceae. Su hábitat natural se encuentra en regiones de América del Sur y se la puede localizar en jardines tropicales de todo el mundo.
-            Si se la deja crece hasta los 4m de altura y prácticamente lo mismo en anchura, en contenedores su crecimiento es mucho más moderado, pero casi más decorativo.
-            No requiere de atenciones especiales, le gusta las disposiciones cálidas, por ello, el mejor desarrollo lo ofrece en zonas de climas anuales templados.
-            En jardinería es muy interesante los diferentes acomodos que se realizan con esta planta, de tal modo que se presenta perfecta para formar un seto separador, un cercado alrededor de un árbol, o formando pequeñas agrupaciones.
-            A través de los recortes de formación se puede configurar como un pequeño arbolillo con un resultado muy decorativo. Es también admirable cuando se cultiva en macetas espaciosas.
-            Produce varios troncos principales, erguidos, con largas ramas delgadas pero fuertes, arqueadas y vigorosas.
-            Florece de manera ininterrumpida
-            desde mediados de la primavera hasta finales del verano.
-            Las flores son pequeñas y se presentan agrupadas en largos racimos colgantes. Se puede encontrar diferentes cultivares con las flores en colora zul violeta, moradas o blancas.
-            A la floración, le sucede unos vistosos y pequeños frutos redondeados de color anaranjado, éstos permanecen en la planta todo el invierno, a veces, los frutos coinciden en la mata con la floración.
-            Los frutos contienen sustancias tóxicas, esta circunstancia hace necesario que se mantenga cierta precaución con los niños y las mascotas.
-            Cuando la Duranta alcanza la madurez puede presentar espinas axilares, que generalmente carecen los ejemplares jóvenes.
-            Le agrada las situaciones a pleno sol donde florecerá con riqueza, puede recibir algo de sombra pero la floración será notoriamente menor.
-            Es primordial regarla con mesura, esperando que la tierra se seque ligeramente antes del siguiente riego.
-            Es capaz de resistir heladas no demasiado intensas o prolongadas.
-            A finales del invierno es conveniente practicarle una poda más o menos rigurosa, eliminando toda la parte seca y recortando las ramas que hayan
-            crecido de manera desigual.
-            La poda de formación frecuente establecerá una planta armoniosa y además propiciará una floración más abundante.
-            Se multiplica a través de semillas sembradas en primavera, o bien por esquejes semi-leñosos tomados a finales del verano.
-            Es conveniente emplear en los esquejes un poco de hormonas de enraizar, facilitará el tiempo de arraigo.
-            <b> $5000</b>
-
-        </td>
+        <th>
+            aspecto
+        </th>
+        <th>
+            tipo de Hojas
+        </th>
+        <th>
+            tipo de Flores
+        </th>
+        <th>
+           temporada de Plantación
+        </th>
+        <th>
+           temporada de Floración
+        </th>
+        <th>
+            familia a la que Pertenece
+        </th>
+        <th>
+           precio por Unidad
+        </th>
+        <th>
+            fotografía
+        </th>
+        <th>
+            Abonos
+        </th>
+        <th>
+            Tierras
+        </th>
+        <th>
+            Adornos
+        </th>
+        <th></th>
     </tr>
+
+@foreach (var item in Model) {
     <tr>
         <td>
-            <img src="Imagenes\Palma.jpg" width="300" height="300" border="0" alt="Palma" />
+            @Html.DisplayFor(modelItem => item.aspecto)
         </td>
-
-        <td class="second">
-            Dypsis lutescens
-            Sinonimia: Chrysalidocarpus lutescens
-            Nombre común: Areca - Palmera amarilla
-
-            Esta es una magnífica palmera de interior originaria de Madagascar, pertenece a la familia de las Arecaceae, anteriormente Palmaceae.
-
-            De los tallos surgen diversos peciolos largos de tonalidad amarillenta, que culminan con largas hojas divididas en múltiples foliolos estrechos.
-
-            Sus finas y delicadas hojas le aportan una apariencia muy elegante, de ahí que sea la palmera que más se utiliza en la decoración de interiores por su gran valor ornamental.
-            Para abonarla se emplea un abono líquido especial para palmeras, estos fertilizantes están especialmente formulados para este tipo de plantas. Usar cada 3 semanas entre la primavera y verano.
-            <b>$12,000</b>
-        </td>
-    </tr>
-    <tr>
         <td>
-            <img src="Imagenes\kalanchoe.jpg" width="300" height="300" border="0" alt="Kalanchoe" />
+            @Html.DisplayFor(modelItem => item.tipoHojas)
         </td>
-
-        <td class="second">
-            texto de prueba
-        </td>
-    </tr>
-</table>
-
-<b>Plantas exteriores </b>
-
-<table>
-
-    <tr>
-        <td class="first">
-            <img src="Imagenes\chlorophytum.jpg" align="left" width="300" height="300" border="0" alt="Chlorophytum">
-        </td>
-
-        <td class="second">
-            Es un género con unas 200-220 especies de plantas perennes, perteneciente a la familia Agavaceae, nativo de las regiones tropicales y subtropicales de África y Asia.
-            Alcanzan 10-30 cm de altura, con una roseta de largas hojas de 15-55 cm de longitud y.5-2 cm de ancho, creciendo de un rizoma carnoso. Las flores son pequeñas, usualmente blancas agrupadas en una panícula de 70 cm de longitud.
-            Chlorophytum comosum, es nativa de Sudáfrica donde es muy popular como planta ornamental.
-            Posee hojas angostas y largas, lineal lanceoladas, disposición arrosetada, paralelinervias, borde entero, de 2–4 dm de longitud y 5–20 mm de ancho, formando una roseta central, y desarrollando normalmente un nudo, con raíces adventicias, tanto bajo tierra como aéreas. También produce estolones con flores actinomorfas, de ovario súpero, diminutas, blanquecinas; e hijuelos. Con inflorescencia en espiga. El fruto es una cápsula, de sexo hermafrodita.
-            Las Chlorophytum comosum cultivados en interiores necesitan ciertos requisitos como:
-            Luz: Media, en sombra pueden llegar a perder la banda blanca que las caracteriza.
-            Riego: Aguantan la escasez de agua debido a que la almacenan en su sistema radicular. Se debe aumentar la frecuencia de riego en verano.
-            Abonado: Cada quincena en primavera y verano.
-            Transplante: Se debe realizar 2 veces al año debido a su gran crecimiento.
-            <b> $17,000</b>
-
-        </td>
-    </tr>
-    <tr>
         <td>
-            <img src="Imagenes\hibiscus.jpg" width="300" height="300" border="0" alt="Hibiscus" />
+            @Html.DisplayFor(modelItem => item.tipoFlores)
         </td>
-        <td class="second">
-            llamado comúnmente rosa de China, cayena, amapola, hibiscus, entre otros nombres,1​ es un arbusto perennifolio de la familia de las malváceas, originario de Asia oriental.
-            Esta especie forma un arbusto o pequeño árbol de entre 2,5 a 5 m de altura. Las hojas, de color verde brillante, son pecioladas, anchas, entre ovadas a lanceoladas con bordes dentados irregularmente.
-            Las flores son grandes, con cinco pétalos -en las variedades sencillas- de 6 a 12 cm de largo. Los estambres se disponen en forma columnar sobresaliendo de la corola. Existen numerosos cultivares, variedades e híbridos, con una amplia gama de colores desde el blanco puro, amarillo, naranja, rojo, escarlata y tintes rosados, con flores simples o dobles (es decir, con el doble de pétalos)
-            Se cultiva como planta ornamental en los trópicos y subtrópicos.
-            Esta planta ofrece la versatilidad de poderla plantar tanto en macetas y mantenerlas en el interior de la casa o directamente en el suelo fuera del hogar, pero en el último caso teniendo en cuenta que las condiciones climáticas sean las adecuadas. Por su origen tropical, no soporta bien los fríos invernales o los vientos excesivos y fríos.
-
-            En caso de que las tengas en maceta en una terraza o en la parte de afuera de tu casa y la temperatura llega a bajar de los 13º C, la recomendación más certeza es llevarla adentro a un lugar donde tenga buena iluminación y una temperatura más cálida.
-            <b>$15000</b>
+        <td>
+            @Html.DisplayFor(modelItem => item.temporadaPlantación)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.temporadaFloración)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.familiaPertenece)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.precioUnidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fotografía)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Abonos)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tierras)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adornos)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
         </td>
     </tr>
+}
 
 </table>
-
-<b>Accesorios:</b>
-<tr>
-    <td>
-        <img src="Imagenes\fertilizante1.jpg" width="300" height="300" border="0" alt="Fertilizante 1" />
-    </td>
-</tr>
-<tr>
-    <td>
-        <img src="Imagenes\fertilizante2.jpg" width="300" height="300" border="0" alt="Fertilizante 2" />
-    </td>
-</tr>
-<tr>
-    <td>
-        <img src="Imagenes\fertilizante3.jpg" width="300" height="300" border="0" alt="Fertilizante 3" />
-    </td>
-</tr>
-<tr>
-    <td>
-        <img src="Imagenes\tierra1.jpg" width="300" height="300" border="0" alt="Tierra 1" />
-    </td>
-</tr>
-<tr>
-    <td>
-        <img src="Imagenes\tierra2.jpg" width="300" height="300" border="0" alt="Tierra 2" />
-    </td>
-</tr>
-<tr>
-    <td>
-        <img src="Imagenes\tierra3.jpg" width="300" height="300" border="0" alt="Tierra 3" />
-    </td>
-</tr>

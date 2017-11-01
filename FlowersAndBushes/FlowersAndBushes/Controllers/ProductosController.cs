@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlowersAndBushes.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,11 +9,12 @@ namespace FlowersAndBushes.Controllers
 {
     public class ProductosController : Controller
     {
+        public static List<Producto> productos = new List<Producto>();
         //
         // GET: /Productos/
         public ActionResult Index()
         {
-            return View();
+            return View(productos);
         }
 
         //
@@ -24,7 +26,7 @@ namespace FlowersAndBushes.Controllers
 
         //
         // GET: /Productos/Create
-        public ActionResult Create()
+        public ActionResult Crear()
         {
             return View();
         }
@@ -32,17 +34,17 @@ namespace FlowersAndBushes.Controllers
         //
         // POST: /Productos/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public JsonResult Crear(Producto producto)
         {
             try
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                var json = Json(new { mensaje = "" });
+                return json;
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                return Json(new { mensaje = ex.Message });
+                            
             }
         }
 
