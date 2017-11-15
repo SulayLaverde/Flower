@@ -52,3 +52,9 @@ D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\bin\FlowersAndBushes.pdb
 D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.csprojResolveAssemblyReference.cache
 D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.dll
 D:\Flower\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.pdb
+D:\Flower_UltimaCalse\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.csprojResolveAssemblyReference.cache
+D:\Flower_UltimaCalse\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.dll
+D:\Flower_UltimaCalse\Flower\FlowersAndBushes\FlowersAndBushes\obj\Debug\FlowersAndBushes.pdb
+D:\Flower_UltimaCalse\Flower\FlowersAndBushes\FlowersAndBushes\bin\FlowersAndBushes.dll.config
+D:\Flower_UltimaCalse\Flower\FlowersAndBushes\FlowersAndBushes\bin\FlowersAndBushes.dll
+D:\Flower_UltimaCalse\Flower\FlowersAndBushes\FlowersAndBushes\bin\FlowersAndBushes.pdb

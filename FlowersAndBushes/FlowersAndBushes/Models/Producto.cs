@@ -8,14 +8,15 @@ namespace FlowersAndBushes.Models
 {
     public class Producto
     {
-        public string aspecto { get; set; }
-        public string tipoHojas { get; set; }
-        public string tipoFlores { get; set; }
-        public string temporadaPlantación { get; set; }
-        public string temporadaFloración { get; set; }
-        public string familiaPertenece { get; set; }
-        public string precioUnidad { get; set; }
-        public string fotografía { get; set; }
+        public string Nombre { get; set; }
+        public string Aspecto { get; set; }
+        public TipoHoja TipoHoja { get; set; }
+        public string TipoFlores { get; set; }
+        public string TemporadaPlantación { get; set; }
+        public string TemporadaFloración { get; set; }
+        public string FamiliaPertenece { get; set; }
+        public string PrecioUnidad { get; set; }
+        public string Fotografía { get; set; }
          public string Abonos { get; set; }
          public string Tierras{ get; set; }
         public string Adornos { get; set; }
