@@ -163,6 +163,10 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PedidoController.cs" />
     <Compile Include="Controllers\ProductosController.cs" />
+    <Compile Include="Datos\FlowersAndBushesContext.cs" />
+    <Compile Include="Datos\FlowersAndBushesInitializer.cs" />
+    <Compile Include="Datos\Producto.cs" />
+    <Compile Include="Datos\TipoHoja.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
